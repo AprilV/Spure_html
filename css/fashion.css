@@ -1,0 +1,81 @@
+img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #333;
+	text-decoration: none;
+}
+a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.container{
+	margin-top: 50px !important;
+}
+
+.brief-intro{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	position: relative;
+}
+.brief-img{
+	float: left;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	vertical-align: middle;
+}
+.intro{
+	margin-left: 170px;
+	position: relative;
+	height: 150px;
+}
+.title{
+	font-size: 24px;
+	font-weight: bold;
+}
+.brief-content{
+	color: #828a92;
+}
+.info{
+	position: absolute;
+	vertical-align: middle;
+	bottom: 0px;
+	color: #828a92;
+}
+.date{
+	display: inline-block;
+	padding-right: 20px;
+}
+.tags{
+	display: inline-block;
+}
+.tags a{
+	color: #828a92;
+	text-decoration: none;
+}
+
+/*.sidebar{position: fixed;}*/
+.categories-form, .archives-form{
+	text-align: center;
+	padding:40px 0;
+	margin: -1px;
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+}

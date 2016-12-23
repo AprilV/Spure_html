@@ -1,0 +1,57 @@
+/*a标签*/
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #333;
+	text-decoration: none;
+}
+a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.container-fluid{
+	margin-top: 50px;
+	/*margin-left: 200px;*/
+}
+.add-sneaker{
+	padding: 5px 10px;
+	color: #fff;
+	background-color: #0BA462;
+}
+.clear{ clear:both;}
+.content{ border-top: 1px solid #cecece;}
+
+/*popover-intro*/
+.popover.right>.arrow{top: 50% !important;}
+.popover-content{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.pop-title{
+	font-size: 16px;
+	padding: 5px 0;
+	border-bottom: 1px solid #cecece;
+}
+.current-price{padding: 5px 0;}
+.pop-price{font-size: 16px;}
+
+
+/*addToWishList Modal*/
+.modal-dialog{ margin: 50px auto;}
+.modal-header{ background-color: #34c3e1;}
+.close{ opacity: 1;}
+.modal-title{ color: #fff;}
+.form-group{ position: relative;}
+.searchicon{
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+	color: red;
+	float: right;
+}

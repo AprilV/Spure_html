@@ -1,0 +1,113 @@
+<!DOCTYPE>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="../css/myAccount_MySneakers.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-2 col-sm-9 col-sm-offset-3">
+				<h2>My Sneakers</h2>
+				<br>
+				<br>
+				<div class="content">
+					<div class="row">
+						<div class="chart col-md-8 col-sm-8">
+							<div class="col-md-6 col-sm-6">
+								<h4 class="chart-title">SNEAKER COUNT</h4>
+								<div id="sneaker-count-chart"></div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<h4 class="chart-title">MARKET VALUE</h4>
+								<div id="market-value-chart"></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<table class="table">
+								<thead>
+									<div class="totals">TOTALS</div>
+								</thead>
+								<tbody>
+									<tr class="t-block">
+										<td class="t-title">Sneakers</td>
+										<td class="t-value">10</td>
+									</tr>
+									<tr class="t-block">
+										<td class="t-title">Market Value</td>
+										<td class="t-value">$1050</td>
+									</tr>
+									<tr class="t-block">
+										<td class="t-title">Average Price</td>
+										<td class="t-value">$105</td>
+									</tr>
+									<tr class="t-block">
+										<td class="t-title">Gain/Loss</td>
+										<td class="t-value">$50</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-2 col-sm-9 col-sm-offset-3">
+				<div class="menutable">
+					<a href="#" data-toggle="modal" data-target="#addSneaker"><span class="add-sneaker pull-right">ADD SNEAKER</span><a>
+					<div class="clear"></div>
+				</div>
+				<div class="content">
+					<div class="row">
+						<div class="col-md-2 col-sm-3">
+							<a href="#" id="pop-intro"><img src="https://stockx.imgix.net/Adidas-Yeezy-Boost-350-Low-Pirate-Black-2016.jpg?fit=fillmax&bg=FFFFFF&w=140&h=100&auto=compress"></a>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<a href="#"><img src="https://stockx.imgix.net/Adidas-Yeezy-Boost-350-V2-Core-Black-Red.png?fit=fillmax&bg=FFFFFF&w=140&h=100&auto=compress"></a>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<a href="#" id="pop-intro"><img src="https://stockx.imgix.net/Adidas-Yeezy-Boost-350-Low-Pirate-Black-2016.jpg?fit=fillmax&bg=FFFFFF&w=140&h=100&auto=compress"></a>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<a href="#"><img src="https://stockx.imgix.net/Adidas-Yeezy-Boost-350-V2-Core-Black-Red.png?fit=fillmax&bg=FFFFFF&w=140&h=100&auto=compress"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- add sneaker to wish list -->
+	<div class="modal fade" id="addSneaker" tabindex="-1" role="dialog" aria-labelledby="addModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" style="color:#fff;">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title">ADD SNEAKER TO WISH LIST</h4>
+				</div>
+				<div class="modal-body">
+					<p><b>Which product would you like to add?</b></p>
+					<form class="searchbox" role="search">
+            			<div class="form-group">
+              				<input type="text" class="form-control" placeholder="Search">
+              				<a href="#"><span class="searchicon glyphicon glyphicon-search"></span></a>
+            			</div>
+          			</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="../assets/raphael.min.js"></script>
+	<script src="../assets/morris.js"></script>
+	<script src="../js/chart.js"></script>
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="../js/popover-intro.js"></script>
+</body>
+</html>

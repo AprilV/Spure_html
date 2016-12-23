@@ -1,0 +1,33 @@
+body{
+	position: relative;
+}
+a{
+	color: #000;
+}
+a:hover{
+	color: #000;
+}
+a:visited{
+	color: #000;
+}
+
+.sidebar-container{
+	margin-top: 50px;
+}
+.sidebar{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	display: block;
+	padding: 20px;
+	margin-top: 50px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.sidebar a{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}

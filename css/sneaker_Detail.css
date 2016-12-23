@@ -1,0 +1,100 @@
+.container{margin-top: 50px !important;}
+.product-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.frame{
+	border: 1px solid;
+	font-size: 13px;
+	margin: 0;
+	border-radius: 20px;
+	display: inline-block;
+	padding: 4px 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.add-mySneaker{
+	border-color: #16C95E;
+	color: #16C95E;
+	margin-right: 5px;
+}
+.add-wishList{
+	border-color: #00BBE3;
+	color: #00BBE3;
+}
+
+.product-media{margin-top: 25px;}
+#sneaker-media{
+	width: 1140px;
+	height: 500px;
+	margin: 0 auto;
+}
+.product-info{
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+	display: flex;
+}
+.product-details{
+	width: 30%;
+	margin-right: 5%;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.detail{
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.title{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.price{
+	display: flex;
+	align-items: center;
+}
+.form-group{margin-bottom: 0;}
+.size-choose{
+	display: inline;
+	margin-left: 5px;
+}
+.size-choose button{
+	font-size: 18px;
+	padding: 5px 10px;
+}
+.value{
+	margin-left: 20px;
+	font-size: 50px;
+	font-weight: bold;
+	/*display: inline;*/
+}
+.product-description{
+	width: 65%;
+	font-size: 17px;
+}
+
+.product-market-history{padding-left: -15px;}
+.product-market-summary{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+}
+.summary-title{
+	padding: 3px;
+	border-bottom: 2px solid #cecece;
+	text-align: center;
+}
+.summary-container{
+	border-bottom: 1px solid #cecece;
+	text-align: center;
+	padding: 10px;
+}
+.summary-subtitle{
+	font-size: 20px;
+	font-weight: bold;
+}
+.summary-value{
+	font-size: 36px;
+	font-weight: bold;
+	color: #34c3e1;
+}

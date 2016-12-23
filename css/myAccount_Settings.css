@@ -1,0 +1,37 @@
+/*a标签*/
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #333;
+	text-decoration: none;
+}
+a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.container-fluid{
+	margin-top: 50px;
+}
+.context{
+	width: 250px;
+	height:25px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.resetpwd a:hover{ color: #34c3e1;}
+
+/*重置密码模态框*/
+.modal-dialog{ 
+	margin: 70px auto;
+	width: 500px;
+}
+.modal-header{ 
+	height: 55px;
+	background-color: #34c3e1;
+}
+.close{ opacity: 1;}
+.modal-title{ color: #fff;}
+.modal-body{ padding: 20px 15px 15px 15px;}

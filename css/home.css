@@ -1,0 +1,155 @@
+.home-container{
+	margin-top: 50px;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #333;
+	text-decoration: none;
+}
+a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.carouselImg{
+	position: relative;
+	width: 1170px;
+	height: 400px;
+	vertical-align: middle;
+}
+
+
+.row{
+	margin: 0px;
+}
+
+.row-header{
+	border-bottom: 1px solid #CECECE;
+}
+.row-header h2{
+	margin-left: -15px;
+}
+.view-more{
+	margin-top: 35px;
+}
+.view-more a{
+	margin-right: -15px;
+}
+
+.sneaker-home-popular{
+	width: 285px;
+	height: 300px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.sneaker-img{
+	position: relative;
+	width: 255px;
+	height: 175px;
+	vertical-align: middle;
+}
+
+.sneaker-name{
+	font-size: 20px;
+}
+.sold-number{
+	font-size: 30px;
+}
+
+.sneaker-home-mover{
+	width: 285px;
+	height: 330px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.price b{
+	font-size: 30px;
+}
+.price span{
+	font-size: 14px;
+	vertical-align: top;
+	margin-top: 8px;
+}
+.price-up{
+	color: green;
+}
+.price-down{
+	color: red;
+}
+
+.latest-news{
+	padding: 0px;
+}
+.row-header-sub p{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: -15px;
+}
+.news-body{
+	height: 494px;
+	border-bottom: 1px solid #CECECE;
+}
+.news-body a{
+	color: #000;
+	font-weight: bold;
+	font-size: 16px;
+}
+.news-body a:hover{
+	color: #00ffee;
+}
+.news-body p{
+	color: #000;
+}
+.news{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-top: 1px solid #CECECE;
+}
+
+.calendar{
+	padding-right: 0px;
+}
+.calendar-cell{
+	border: 1px solid #CECECE;
+	padding: 10px;
+	margin-left: -1px;
+	margin-top: -1px;
+	height: 248px;
+}
+.date{
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0px;
+	float: left;
+}
+.add{
+	padding: 0px;
+	float: right;
+}
+.calendar-img{
+	position: relative;
+	width: 205px;
+	height: 155px;
+	vertical-align: middle;
+}
+.calendar-title{
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}

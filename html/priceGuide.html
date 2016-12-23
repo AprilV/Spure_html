@@ -1,0 +1,90 @@
+<!DOCTYPE>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+
+  	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link href="../css/priceGuide.css" rel="stylesheet" type="text/css">
+	<title>Price Guide</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-2 sidebar">
+				<ul class="nav nav-sidebar">
+					<li class="active"><a href="#">ALL SNEAKERS</a></li>
+					<li><a href="#">ADIDAS</a></li>
+					<li><a href="#">AIR JORDAN</a></li>
+					<li><a href="#">FOAMPOSITE</a></li>
+					<li><a href="#">KD</a></li>
+					<li><a href="#">KOBE</a></li>
+					<li><a href="#">LEBRON</a></li>
+					<li><a href="#">AIR FORCE</a></li>
+					<li><a href="#">AIR MAX</a></li>
+					<li><a href="#">NIKE</a></li>
+					<li><a href="#">BASKETBALL</a></li>
+					<li><a href="#">NIKE SB</a></li>
+					<li><a href="#">NIKE OTHER</a></li>
+					<li><a href="#">OTHER BRANDS</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<div class="row sort-row">
+					<div class="col-xs-5 col-sm-3">
+						<div class="sorts">
+							<label>Sort By:</label>
+							<select id="sortby" name="sort" class="sort-form form-control" data-live-search="true">
+								<option value="">Average Price</option>
+								<option value="">Most Popular</option>
+								<option value="-1">Market Movers</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-xs-7 col-sm-9 sort-explainer">
+						<!-- The 'Most Popular' are the products with the most visits over the past 72 hours. -->
+						The 'Market Movers' are the products with the biggest increase or decrease in price over the past 72 hours.
+						<!-- The 'Average Price' are the products with the highest average price over the past 12 months. -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 col-sm-4 col-xs-6 cell">
+						<div class="change-img">
+							<img src="https://stockx.imgix.net/Air-Jordan-6-Retro-Olympic-Flag-2008-Beijing.jpg?fit=fillmax&bg=FFFFFF&w=300&h=214&auto=compress">
+						</div>
+						<div class="name">
+							<span>Jordan 6 Retro</span>
+							<br>
+							<span>Olympic Flag Beijing</span>
+						</div>
+						<div class="price">$315</div>
+						<div class="change">
+							<span class="change-label">CHANGE:</span>
+							<span class="green">276%</span>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 cell">
+						<div class="change-img">
+							<img src="https://stockx.imgix.net/Nike-Lebron-5-Christ-The-King-Home.jpg?fit=fillmax&bg=FFFFFF&w=300&h=214&auto=compress">
+						</div>
+						<div class="name">
+							<span>Lebron 5</span>
+							<br>
+							<span>Christ the king</span>
+						</div>
+						<div class="price">$210</div>
+						<div class="change">
+							<span class="change-label">CHANGE:</span>
+							<span class="green">166%</span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>

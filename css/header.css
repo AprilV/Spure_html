@@ -1,0 +1,62 @@
+/*a标签*/
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #333;
+	text-decoration: none;
+}
+a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+/*导航条*/
+.navbar{
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #fff;
+	border: 1px solid #cecece;
+}
+.navbar-header{
+	padding-top: 12px;
+	margin-right: 20px !important;
+}
+.searchbox{ width: 40%;}
+.form-group{ 
+	position: relative;
+	width: 100%;
+}
+.form-group input{ width: 100% !important;}
+.searchicon{
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+	color: red;
+	float: right;
+}
+.dropdown-menu{
+	min-width: 145px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.dropdown-menu a{ padding: 8px 15px !important;}
+
+/*登录注册模态框*/
+.modal-dialog{ 
+	margin: 50px auto;
+	width: 500px;
+}
+.modal-header{ background-color: #34c3e1;}
+.close{ opacity: 1;}
+.modal-title{ color: #fff;}
+.modal-body{ padding: 15px 15px 40px 15px;}
+.nav-tabs>li>a{color: #34c3e1;}
+.nav-tabs>li.active>a{ 
+	border: none;
+	border-bottom: 2px solid #50dde3;
+}
+.btn-right{ float: right;}
